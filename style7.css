@@ -1,0 +1,17 @@
+.text:hover{
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+   transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+.movie p{
+  font-size:20px;
+  font-family: 'Lobster', sans-serif;
+  color:gray;
+  justify-content: center;
+  -webkit-transition: -webkit-transform 2s;
+  transition: transform 2s;
+  border-radius: 50%;
+}
+.movie p:hover {
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
+}
